@@ -1,0 +1,66 @@
+[
+  {
+    "id": "101",
+    "title": "Event Management Platform",
+    "description": "A personal portfolio website built with React and Tailwind CSS.",
+    "detail": "A full-stack Event Management Platform designed to streamline the process of event creation, registration, tracking, and management for both users and administrators. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform ensures a seamless, secure, and efficient event experience.",
+    "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1743915680/Screenshot_2025-04-05_230123_a7hsrd.png",
+    "link": "https://planova-event-management.netlify.app",
+    "TechStack": [
+      "ReactJS",
+      "Tailwind CSS",
+      "Framer",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Vercel"
+    ],
+    "Features": [
+      "User Registration & Event Participation - Browse, register, and attend events with real-time tracking.",
+      "Admin Dashboard – Create, update, and monitor event participation effortlessly.",
+      "Secure Authentication & Role-Based Access – Ensures safe and restricted access based on user roles.",
+      "Real-Time Event Tracking – Live updates on registrations and attendance."
+    ]
+  },
+  {
+    "id": "201",
+    "title": "Tourism Website",
+    "description": "A full-stack blog platform using Node.js, Express, and MongoDB.",
+    "detail": "A Tourism platform designed to help users discover new destinations, plan their travels, and explore popular places in India. The platform allows users to search for specific locations and get a curated list of famous places nearby, making it easier to explore hidden gems and top tourist spots.",
+    "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1743915403/1738505760554_mvbv1y.jpg",
+    "link": "https://example.com/blog",
+    "TechStack": [
+      "ReactJS",
+      "Tailwind CSS",
+      "Framer",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Vercel"
+    ],
+    "Features": [
+      "Place Search: Users can find nearby famous destinations based on a search query.",
+      "Top Destinations: A section dedicated to trending and popular travel destinations in India.",
+      "Travel Articles & Blogs: Expert blogs and travel tips to inspire and guide users in planning their trips.",
+      "FAQ Section: A comprehensive FAQ section for addressing common travel-related questions."
+    ]
+  },
+  {
+    "id": "301",
+    "title": "E-commerce Website",
+    "description": "A mock e-commerce frontend built with React and Bootstrap.",
+    "detail": "",
+    "image": "/projects/ecommerce.png",
+    "link": "https://example.com/store",
+    "TechStack": [
+      "ReactJS",
+      "Bootstrap"
+    ],
+    "Features": [
+      "User Registration & Event Participation - Browse, register, and attend events with real-time tracking.",
+      "Admin Dashboard – Create, update, and monitor event participation effortlessly.",
+      "Secure Authentication & Role-Based Access – Ensures safe and restricted access based on user roles.",
+      "Real-Time Event Tracking – Live updates on registrations and attendance."
+    ]
+  }
+]
