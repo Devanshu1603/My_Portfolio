@@ -110,11 +110,11 @@ const ContactPage = () => {
         className="h-auto py-10 flex items-center justify-center px-[5%] md:px-0"
         id="Contact"
       >
-        <div className="container px-[1%] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-[45%_55%] 2xl:grid-cols-[35%_65%] gap-12">
+        <div className="container flex justify-center px-[1%] gap-12">
           <div
             data-aos="fade-right"
             data-aos-duration="1200"
-            className="w-screen bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-5 py-10 sm:p-10 transform transition-all duration-300 hover:shadow-[#6366f1]/10"
+            className="sm:w-[90%] md:w-[80%] lg:w-[75%] xl:w-[70%] 2xl:w-[65%] 3xl:w-[60%] bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-5 py-10 sm:p-10 transform transition-all duration-300 hover:shadow-[#6366f1]/10"
           >
             <div className="flex justify-between items-start mb-8">
               <div>
@@ -127,12 +127,12 @@ const ContactPage = () => {
               </div>
               <Share2 className="w-10 h-10 text-[#6366f1] opacity-50" />
             </div>
-             <div className="flex flex-wrap items-start gap-8">
+             <div className="">
             <form 
-              action="https://formsubmit.co/ekizulfarrachman@gmail.com"
+              action="https://formsubmit.co/console.uk123@gmail.com"
               method="POST"
               onSubmit={handleSubmit}
-              className="space-y-6 w-full sm:w-[50%] md:w-[80%] lg:w-[75%] xl:w-[70%] 2xl:w-[45%]">
+              className="space-y-6 w-full">
               {/* FormSubmit Configuration */}
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
@@ -198,9 +198,6 @@ const ContactPage = () => {
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
             </form>
-            <div className="mt-10 ml-6">
-              <SocialLinks />
-            </div>
             </div>
           </div>
         </div>

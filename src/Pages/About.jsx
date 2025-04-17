@@ -50,7 +50,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
           
           <img
-            src="/Photo.png"
+            src="https://res.cloudinary.com/dngc8i1iy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744916924/WhatsApp_Image_2025-04-18_at_00.38.17_5819863b_bcpqpn.jpg"
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
@@ -159,23 +159,23 @@ const AboutPage = () => {
     {
       icon: Code,
       color: "from-[#6366f1] to-[#a855f7]",
-      value: totalProjects,
+      value: 3,
       label: "Total Projects",
       description: "Innovative web solutions crafted",
       animation: "fade-right",
     },
-    {
-      icon: Award,
-      color: "from-[#a855f7] to-[#6366f1]",
-      value: totalCertificates,
-      label: "Certificates",
-      description: "Professional skills validated",
-      animation: "fade-up",
-    },
+    // {
+    //   icon: Award,
+    //   color: "from-[#a855f7] to-[#6366f1]",
+    //   value: totalCertificates,
+    //   label: "Certificates",
+    //   description: "Professional skills validated",
+    //   animation: "fade-up",
+    // },
     {
       icon: Globe,
       color: "from-[#6366f1] to-[#a855f7]",
-      value: YearExperience,
+      value: 1,
       label: "Years of Experience",
       description: "Continuous learning journey",
       animation: "fade-left",
@@ -223,7 +223,7 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/uc?export=download&id=1pwXKoZFdbq2WvJCbYmLLUSDRoVhT4TQC" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/uc?export=download&id=1cN3FfY4QFA5RzR9VqFioIpBScWEXo5GZ" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"

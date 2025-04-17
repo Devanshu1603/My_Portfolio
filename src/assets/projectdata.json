@@ -1,11 +1,34 @@
 [
   {
+    "id": "301",
+    "title": "Collaborative Code Editor",
+    "description": "A mock e-commerce frontend built with React and Bootstrap.",
+    "detail": "",
+    "github":"https://github.com/Devanshu1603/NeatCode",
+    "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1744911778/Screenshot_2025-04-17_230936_mrntll.png",
+    "link": "https://code-sync-live.vercel.app/",
+    "TechStack": [
+      "TypeScript",
+      "React",
+      "Node",
+      "Socket.io",
+      "Docker",
+      "CodeMirror"
+    ],
+    "Features": [
+      "Developed a multi-user, real-time code editor enabling collaborative programming with instant code synchronization, in-room chat, and live user presence tracking.",
+      "Implemented features such as syntax highlighting, file/folder operations, code execution, AI-assisted code suggestions, and collaborative sketching using WebSockets.",
+      " Enabled room-based collaboration with unique room IDs, user notifications, customizable themes, and seamless multi-language support for a tailored coding experience."
+    ]
+  },
+  {
     "id": "101",
     "title": "Event Management Platform",
     "description": "A personal portfolio website built with React and Tailwind CSS.",
     "detail": "A full-stack Event Management Platform designed to streamline the process of event creation, registration, tracking, and management for both users and administrators. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform ensures a seamless, secure, and efficient event experience.",
-    "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1743915680/Screenshot_2025-04-05_230123_a7hsrd.png",
+    "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1744911778/Screenshot_2025-04-17_231124_r1i8xs.png",
     "link": "https://planova-event-management.netlify.app",
+    "github":"https://github.com/Devanshu1603/Event-management-Frontend",
     "TechStack": [
       "ReactJS",
       "Tailwind CSS",
@@ -16,10 +39,9 @@
       "Vercel"
     ],
     "Features": [
-      "User Registration & Event Participation - Browse, register, and attend events with real-time tracking.",
-      "Admin Dashboard – Create, update, and monitor event participation effortlessly.",
-      "Secure Authentication & Role-Based Access – Ensures safe and restricted access based on user roles.",
-      "Real-Time Event Tracking – Live updates on registrations and attendance."
+      "Developed a role-based platform supporting event creation, registration, attendance tracking, and real-time analytics for users and admins.",
+      "Implemented secure JWT authentication, real-time status handling, and an intuitive dashboard to streamline user interaction and admin control.",
+      " Focused on clean code structure, modular component design, and UI responsiveness using Bootstrap and React for optimal usability."
     ]
   },
   {
@@ -29,6 +51,7 @@
     "detail": "A Tourism platform designed to help users discover new destinations, plan their travels, and explore popular places in India. The platform allows users to search for specific locations and get a curated list of famous places nearby, making it easier to explore hidden gems and top tourist spots.",
     "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1743915403/1738505760554_mvbv1y.jpg",
     "link": "https://example.com/blog",
+    "github":"https://github.com/Devanshu1603/new-tourism",
     "TechStack": [
       "ReactJS",
       "Tailwind CSS",
@@ -39,28 +62,9 @@
       "Vercel"
     ],
     "Features": [
-      "Place Search: Users can find nearby famous destinations based on a search query.",
-      "Top Destinations: A section dedicated to trending and popular travel destinations in India.",
-      "Travel Articles & Blogs: Expert blogs and travel tips to inspire and guide users in planning their trips.",
-      "FAQ Section: A comprehensive FAQ section for addressing common travel-related questions."
-    ]
-  },
-  {
-    "id": "301",
-    "title": "E-commerce Website",
-    "description": "A mock e-commerce frontend built with React and Bootstrap.",
-    "detail": "",
-    "image": "/projects/ecommerce.png",
-    "link": "https://example.com/store",
-    "TechStack": [
-      "ReactJS",
-      "Bootstrap"
-    ],
-    "Features": [
-      "User Registration & Event Participation - Browse, register, and attend events with real-time tracking.",
-      "Admin Dashboard – Create, update, and monitor event participation effortlessly.",
-      "Secure Authentication & Role-Based Access – Ensures safe and restricted access based on user roles.",
-      "Real-Time Event Tracking – Live updates on registrations and attendance."
+      "Engineered a full-stack tourism web application enabling users to discover top destinations in India through real-time search and curated content.",
+      "Designed and developed a fully responsive UI using React and Bootstrap to enhance cross-device usability and user experience.",
+      "Built a RESTful backend with Express.js and MongoDB to efficiently manage location data, user interactions, and dynamic content delivery."
     ]
   }
 ]

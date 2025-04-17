@@ -104,7 +104,7 @@ const ProjectDetails = () => {
     setProject(selectedProject);
     console.log("project is :-", project)
   }, [id]);
-  
+
 
   if (!project) {
     return (
@@ -169,7 +169,7 @@ const ProjectDetails = () => {
               <div className="flex flex-wrap gap-3 md:gap-4">
                 {/* Action buttons */}
                 <a
-                  href={project.Link}
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative inline-flex items-center space-x-1.5 md:space-x-2 px-4 md:px-8 py-2.5 md:py-4 bg-gradient-to-r from-blue-600/10 to-purple-600/10 hover:from-blue-600/20 hover:to-purple-600/20 text-blue-300 rounded-xl transition-all duration-300 border border-blue-500/20 hover:border-blue-500/40 backdrop-blur-xl overflow-hidden text-sm md:text-base"
@@ -180,16 +180,20 @@ const ProjectDetails = () => {
                 </a>
 
                 <a
-                  href={project.Github}
+                  href={project.github !== 'Private' ? project.github : undefined}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={(e) => {
+                    if (!handleGithubClick(project.github)) {
+                      e.preventDefault(); // Prevent the anchor from triggering
+                    }
+                  }}
                   className="group relative inline-flex items-center space-x-1.5 md:space-x-2 px-4 md:px-8 py-2.5 md:py-4 bg-gradient-to-r from-purple-600/10 to-pink-600/10 hover:from-purple-600/20 hover:to-pink-600/20 text-purple-300 rounded-xl transition-all duration-300 border border-purple-500/20 hover:border-purple-500/40 backdrop-blur-xl overflow-hidden text-sm md:text-base"
-                  onClick={(e) => !handleGithubClick(project.Github) && e.preventDefault()}
                 >
-                  <div className="absolute inset-0 translate-y-[100%] bg-gradient-to-r from-purple-600/10 to-pink-600/10 transition-transform duration-300 group-hover:translate-y-[0%]" />
                   <Github className="relative w-4 h-4 md:w-5 md:h-5 group-hover:rotate-12 transition-transform" />
-                  <span className="relative font-medium">Github</span>
+                  <span className="relative font-medium">GitHub</span>
                 </a>
+
               </div>
 
               <div className="space-y-4 md:space-y-6">
@@ -211,7 +215,7 @@ const ProjectDetails = () => {
 
             <div className="space-y-6 md:space-y-10 animate-slideInRight">
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-              
+
                 <div className="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <img
                   src={project.image}
