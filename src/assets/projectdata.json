@@ -2,9 +2,9 @@
   {
     "id": "301",
     "title": "Collaborative Code Editor",
-    "description": "A mock e-commerce frontend built with React and Bootstrap.",
-    "detail": "",
-    "github":"https://github.com/Devanshu1603/NeatCode",
+    "description": "A Real-Time Collaborative Code Editor.",
+    "detail": "The Real-Time Collaborative Code Editor is a full-stack web application designed to enable seamless, real-time code collaboration between multiple users. It allows developers to join shared rooms using unique IDs, where they can collaboratively write, edit, and execute code with instant synchronization across all connected clients. Built using technologies like TypeScript, Node.js, Socket.io, Docker, and CodeMirror, the platform features syntax highlighting, multi-language support, file and folder operations, an in-room chat system, and a collaborative drawing board. ",
+    "github": "https://github.com/Devanshu1603/NeatCode",
     "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1744911778/Screenshot_2025-04-17_230936_mrntll.png",
     "link": "https://code-sync-live.vercel.app/",
     "TechStack": [
@@ -28,7 +28,7 @@
     "detail": "A full-stack Event Management Platform designed to streamline the process of event creation, registration, tracking, and management for both users and administrators. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform ensures a seamless, secure, and efficient event experience.",
     "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1744911778/Screenshot_2025-04-17_231124_r1i8xs.png",
     "link": "https://planova-event-management.netlify.app",
-    "github":"https://github.com/Devanshu1603/Event-management-Frontend",
+    "github": "https://github.com/Devanshu1603/Event-management-Frontend",
     "TechStack": [
       "ReactJS",
       "Tailwind CSS",
@@ -51,7 +51,7 @@
     "detail": "A Tourism platform designed to help users discover new destinations, plan their travels, and explore popular places in India. The platform allows users to search for specific locations and get a curated list of famous places nearby, making it easier to explore hidden gems and top tourist spots.",
     "image": "https://res.cloudinary.com/dngc8i1iy/image/upload/v1743915403/1738505760554_mvbv1y.jpg",
     "link": "https://example.com/blog",
-    "github":"https://github.com/Devanshu1603/new-tourism",
+    "github": "https://github.com/Devanshu1603/new-tourism",
     "TechStack": [
       "ReactJS",
       "Tailwind CSS",
